@@ -2,3 +2,38 @@
 
 
 /* ============================================================ QUIZ BLOCK ============================================================ */
+
+.quiz__logo-wrapper {
+    height: 20%;
+    width: 55%;
+}
+
+.quiz__page {
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.quiz__title {
+    font-size: variables.$font-size-big;
+    font-weight: 600;
+}
+
+.quiz__texts {
+    gap: 1rem;
+}
+
+.game__title-holder {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.game__answers {
+    gap: 1rem;
+}
+
+.game__answer {
+    padding: .5rem .75rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px #dddddd;
+}

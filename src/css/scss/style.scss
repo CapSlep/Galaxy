@@ -2,3 +2,9 @@
 @use 'variables';
 @use 'base';
 @use 'header';
+@use 'quiz';
+@use 'footer';
+
+.price-new {
+    font-weight: 600;
+}

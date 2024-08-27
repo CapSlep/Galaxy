@@ -1,0 +1,18 @@
+@use 'variables';
+
+.footer {
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    gap: .5rem;
+}
+
+.footer__img-wrapper {
+    width: 50%;
+    text-align: center;
+}
+
+.footer__text {
+    font-size: variables.$font-size-small;
+    text-align: center;
+}

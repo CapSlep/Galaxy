@@ -1,6 +1,7 @@
 import Facebook from "./modules/Facebook";
 import Header from "./modules/Header";
 import QuizPage from "./modules/QuizPage";
+import Footer from "./modules/Footer";
 
 import { useData } from "./DataContext"; // Import the custom hook
 
@@ -50,6 +51,7 @@ export default function App() {
             <Facebook></Facebook>
             <Header></Header>
             <QuizPage></QuizPage>
+            <Footer></Footer>
         </>
     );
 }

@@ -92,6 +92,7 @@ body.lock {
 p {
   font-size: clamp(1rem, 0.3rem + 3.5vw, 1.5rem);
   margin: 0;
+  line-height: 150%;
 }
 
 ol {
@@ -136,5 +137,62 @@ ol {
 .shipping__promo {
   text-align: center;
   padding: 0.5rem 0;
+  font-weight: 600;
+}
+
+/* ============================================================ QUIZ BLOCK ============================================================ */
+.quiz__logo-wrapper {
+  height: 20%;
+  width: 55%;
+}
+
+.quiz__page {
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.quiz__title {
+  font-size: clamp(1.5rem, 0.3rem + 3.5vw, 2rem);
+  font-weight: 600;
+}
+
+.quiz__texts {
+  gap: 1rem;
+}
+
+.game__title-holder {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.game__answers {
+  gap: 1rem;
+}
+
+.game__answer {
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px #dddddd;
+}
+
+.footer {
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  gap: 0.5rem;
+}
+
+.footer__img-wrapper {
+  width: 50%;
+  text-align: center;
+}
+
+.footer__text {
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+  text-align: center;
+}
+
+.price-new {
   font-weight: 600;
 }
