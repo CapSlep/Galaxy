@@ -1,0 +1,42 @@
+{
+    "priceOld": "£399.00",
+    "priceNew": "£1.99",
+    "header": {
+        "shipping": "Free shipping for UK orders!"
+    },
+    "quizPage": {
+        "title": "Congratulations, you can participate in a new promotion from Samsung!",
+        "textSelling": "Samsung is selling their new popular galaxy ring model for ",
+        "texts": [
+            "South Korea's Samsung is expanding its presence in the UK market by launching a second production line and driving growth. With this expansion, Samsung plans to increase its market share to 65% and as a first step is selling 1,500 rings in the UK at £1.99 specifically for the launch of the new product.",
+            "Galaxy Ring is available in 3 colours.",
+            "To receive a promotional Samsung Galaxy Ring, please fill out the form to confirm that you are an individual."
+        ],
+        "quiz": [
+            {
+                "question": "Question 1 of 3: What characteristics of the ring are important to you?",
+                "answers": [
+                    "Fits like a dream",
+                    "Less charging, more tracking",
+                    "Comfort meets style"
+                ]
+            },
+            {
+                "question": "Question 2 of 3: What is your age?",
+                "answers": [
+                    "18-25 years old",
+                    "25-45 years old",
+                    "45-65+ years old"
+                ]
+            },
+            {
+                "question": "Question 3 of 3: How did you find out about the Galaxy ring?",
+                "answers": [
+                    "Online advertising",
+                    "Recommendation from friends/family",
+                    "Social networks"
+                ]
+            }
+        ]
+    }
+}

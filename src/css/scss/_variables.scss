@@ -1,0 +1,15 @@
+// ============================= VARIABLES BLOCK =============================
+
+$font-size-tiny: clamp(.2rem, .3rem + 3.5vw, .5rem);
+$font-size-smaller: clamp(.5rem, 0.3rem + 3.5vw, .75rem);
+$font-size-small: clamp(.75rem, 0.3rem + 3.5vw, 1rem);
+$font-size-regular: clamp(1rem, 0.3rem + 3.5vw, 1.5rem);
+$font-size-big: clamp(1.5rem, 0.3rem + 3.5vw, 2rem);
+$font-size-huge: clamp(2rem, 0.3rem + 3.5vw, 3rem);
+$font-size-enormous: clamp(2.25rem, 0.3rem + 3.5vw, 4.85rem);
+
+$transition: all 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+
+$cream-color: #f9f5ef;
+
+$small-screen: 860px;
