@@ -11,8 +11,7 @@ export default function QuizPage() {
             </div>
             <h2 className="quiz__title">{data.quizPage.title}</h2>
             <p className="quiz__selling">
-                {data.quizPage.textSelling}
-                {data.quizPage.priceNew}
+                {data.quizPage.textSelling} {data.quizPage.priceNew}
             </p>
             <div className="quiz__img-wrapper">
                 <img src="./img/rings.webp" alt="RINGS" />
@@ -26,7 +25,23 @@ export default function QuizPage() {
                     );
                 })}
             </div>
-            <div className="quiz__game">{}</div>
+            <div className="quiz__game">
+                <div className="game__title-holder">
+                    Question {quizIndex + 1} of {data.quizPage.quiz.length}:{" "}
+                    {data.quizPage.quiz[quizIndex].question}
+                </div>
+                <div className="game__answers">
+                    {data.quizPage.quiz[quizIndex].answers.map(
+                        (answer, index) => {
+                            return (
+                                <button key={index} className="game__answer">
+                                    {answer}
+                                </button>
+                            );
+                        }
+                    )}
+                </div>
+            </div>
         </section>
     );
 }
