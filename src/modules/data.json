@@ -1,62 +1,62 @@
 {
-    "priceOld": "449.00€",
-    "priceNew": "2.00€",
+    "priceOld": "2234 lei",
+    "priceNew": "9,95 lei",
     "productName": "Samsung Galaxy Ring",
     "header": {
-        "shipping": "Free shipping for Malta orders!"
+        "shipping": "Livrare gratuită pentru comenzile din România!"
     },
     "quizPage": {
-        "title": "Congratulations, you can participate in a new promotion from Samsung!",
-        "textSelling": "Samsung is selling their new popular galaxy ring model for ",
+        "title": "Felicitări, puteți participa la o nouă promoție de la Samsung!",
+        "textSelling": "Samsung își vinde noul model popular de inel Galaxy pentru ",
         "texts": [
-            "Das südkoreanische Unternehmen Samsung baut seine Marktpräsenz in Deutschland aus, indem es eine zweite Produktionslinie in Betrieb nimmt und das Wachstum ankurbelt. Mit dieser Expansion will Samsung seinen Marktanteil auf 65 % erhöhen und verkauft in einem ersten Schritt 1.500 Ringe in Deutschland zu einem Preis von 2€ speziell für die neue Produkteinführung."
+            "Compania sud-coreeană Samsung își extinde prezența pe piața din România prin lansarea unei a doua linii de producție și alimentarea creșterii. Prin această extindere, Samsung intenționează să își crească cota de piață la 65% și, ca prim pas, vinde în România 1.500 de inele la prețul de 9,95 lei special pentru lansarea noului produs."
         ],
         "quiz": [
             {
-                "question": "What characteristics of the ring are important to you?",
+                "question": "Ce caracteristici ale inelului sunt importante pentru dumneavoastră?",
                 "answers": [
-                    "Fits like a dream",
-                    "Less charging, more tracking",
-                    "Comfort meets style"
+                    "Se potrivește perfect",
+                    "Mai puțină încărcare, mai multă urmărire",
+                    "Confortul întâlnește stilul"
                 ]
             },
             {
-                "question": "What is your age?",
+                "question": "Care este vârsta dumneavoastră?",
                 "answers": [
-                    "18-25 years old",
-                    "25-45 years old",
-                    "45-65+ years old"
+                    "18-25 ani",
+                    "25-45 ani",
+                    "45-65+ ani"
                 ]
             },
             {
-                "question": "How did you find out about the Galaxy ring?",
+                "question": "Cum ați aflat despre inelul Galaxy?",
                 "answers": [
-                    "Online advertising",
-                    "Recommendation from friends/family",
-                    "Social networks"
+                    "Reclame online",
+                    "Recomandare de la prieteni/familie",
+                    "Rețele sociale"
                 ]
             }
         ]
     },
-    "footer": "Copyright© 1995-2024 SAMSUNG All Rights Reserved",
+    "footer": "Copyright© 1995-2024 SAMSUNG Toate drepturile rezervate",
     "notifications": [
         {
             "img": "./img/products/black/black_1.jpg",
-            "location": "Valletta, Malta",
-            "name": "Joseph Borg",
-            "text": "Just bought Galaxy Ring for ",
-            "from": "from"
+            "location": "București, România",
+            "name": "Andrei Popescu",
+            "text": "Tocmai a cumpărat inelul Galaxy pentru ",
+            "from": "din"
         },
         {
             "img": "./img/products/gold/gold_1.jpg",
-            "location": "Sliema, Malta",
-            "name": "Maria Vella",
-            "text": "Just bought Galaxy Ring for ",
-            "from": "from"
+            "location": "Cluj-Napoca, România",
+            "name": "Maria Ionescu",
+            "text": "Tocmai a cumpărat inelul Galaxy pentru ",
+            "from": "din"
         }
     ],
-    "colorsText": "Colors",
-    "sizeText": "Size",
+    "colorsText": "Culori",
+    "sizeText": "Mărime",
     "sizes": [
         "5",
         "6",
@@ -68,70 +68,70 @@
         "12",
         "13"
     ],
-    "checkoutButton": "Go to delivery",
-    "descriptionName": "Description",
+    "checkoutButton": "Mergi la livrare",
+    "descriptionName": "Descriere",
     "descriptionDrop": [
         {
-            "name": "Dimension",
+            "name": "Dimensiuni",
             "parts": [
                 {
-                    "title": "Width",
+                    "title": "Lățime",
                     "text": "7.0mm"
                 },
                 {
-                    "title": "Thickness",
+                    "title": "Grosime",
                     "text": "2.6mm"
                 },
                 {
-                    "title": "Weight",
+                    "title": "Greutate",
                     "text": "2.3g (US 5) - 3.2g (US 13)"
                 },
                 {
-                    "title": "Shipping Weight",
+                    "title": "Greutate la livrare",
                     "text": "0.38 lb"
                 }
             ]
         },
         {
-            "name": "Battery",
+            "name": "Baterie",
             "parts": [
                 {
-                    "title": "Ring",
+                    "title": "Inel",
                     "text": "18mAh (US 5) - 23.5mAh (US 13)"
                 },
                 {
-                    "title": "Charging case",
+                    "title": "Carcasă de încărcare",
                     "text": "361mAh"
                 },
                 {
-                    "title": "Usage",
-                    "text": "up to 7 days"
+                    "title": "Durată de utilizare",
+                    "text": "până la 7 zile"
                 },
                 {
-                    "title": "Full charge",
+                    "title": "Încărcare completă",
                     "text": "80 min"
                 }
             ]
         },
         {
-            "name": "Sensors",
+            "name": "Senzori",
             "parts": [
                 {
-                    "title": "Accelerometer",
-                    "text": "Yes"
+                    "title": "Accelerometru",
+                    "text": "Da"
                 },
                 {
                     "title": "PPG",
                     "text": "2PD + 3LED (R / 2xG / IR)"
                 },
                 {
-                    "title": "Skin temperature",
-                    "text": "NTC-Temperature Sensor"
+                    "title": "Temperatura pielii",
+                    "text": "Senzor de temperatură NTC"
                 }
             ]
         },
         {
-            "name": "Other Features",
+            "name": "Alte caracteristici",
             "parts": [
                 {
                     "title": "MCU",
@@ -142,53 +142,53 @@
                     "text": "512KB + 64KB"
                 },
                 {
-                    "title": "Memory",
+                    "title": "Memorie",
                     "text": "8MB"
                 },
                 {
-                    "title": "Connectivity",
+                    "title": "Conectivitate",
                     "text": "Bluetooth® 5.4"
                 },
                 {
-                    "title": "Water Resistance",
+                    "title": "Rezistență la apă",
                     "text": "10ATM, IP68"
                 }
             ]
         }
     ],
-    "featuresName": "Features",
+    "featuresName": "Caracteristici",
     "features": [
         {
-            "name": "Sleek Titanium Finish",
-            "text": "Stay ahead of the trends with an all new Galaxy that proves high-tech devices don't have to be bulky. The durable titanium frame keeps the Galaxy Ring looking beautiful throughout all your day's activities."
+            "name": "Finisaj elegant din titan",
+            "text": "Fiți în pas cu tendințele cu un nou Galaxy care demonstrează că dispozitivele high-tech nu trebuie să fie voluminoase. Rama durabilă din titan menține inelul Galaxy frumos pe parcursul tuturor activităților zilnice."
         },
         {
-            "name": "Detailed insights",
-            "text": "With Galaxy Ring, your everyday movements go much further. Using the power of Galaxy AI, it works out where you can improve by constantly analysing your wellness habits, sleep quality and heart rate to build a comprehensive picture of your wellness."
+            "name": "Informații detaliate",
+            "text": "Cu inelul Galaxy, mișcările dumneavoastră zilnice devin mai mult decât atât. Folosind puterea Galaxy AI, analizează constant obiceiurile dumneavoastră de wellness, calitatea somnului și ritmul cardiac pentru a crea o imagine completă a stării dumneavoastră de bine."
         },
         {
-            "name": "Wireless Charging Cradle",
-            "text": "The Charging Case has a light around the Multi-purpose button that indicates the battery charging level. You can also charge the Charging Case wirelessly, so simply place Galaxy Ring in its case, and place it on a wireless charging pad for easy charging."
+            "name": "Suport de încărcare wireless",
+            "text": "Carcasa de încărcare are o lumină în jurul butonului multifuncțional care indică nivelul de încărcare al bateriei. De asemenea, puteți încărca carcasa de încărcare wireless, așa că așezați inelul Galaxy în carcasa sa și puneți-l pe un pad de încărcare wireless pentru o încărcare ușoară."
         },
         {
-            "name": "Durable And Water-resistant",
-            "text": "Tough enough to handle the everyday and a whole lot more, including up to 100m water resistance. Whether you’re swimming or sweating, Galaxy Ring can handle it."
+            "name": "Durabil și rezistent la apă",
+            "text": "Suficient de rezistent pentru a face față vieții de zi cu zi și mult mai mult, inclusiv rezistență la apă de până la 100m. Indiferent dacă înotați sau transpirați, inelul Galaxy poate face față."
         },
         {
-            "name": "Energy Score",
-            "text": "Discover how ready you are to tackle your day with the power of AI. Your sleep, heart rate and previous activity is factored into the overall score to help you decide on your activity levels. Whether it’s lace up or rest up, Galaxy Ring’s AI-boosted intelligence will give you the answer."
+            "name": "Scor de energie",
+            "text": "Descoperiți cât de pregătit sunteți să faceți față zilei cu puterea AI. Somnul dumneavoastră, ritmul cardiac și activitatea anterioară sunt integrate în scorul general pentru a vă ajuta să decideți nivelul de activitate. Indiferent dacă decideți să vă odihniți sau să vă antrenați, inteligența AI a inelului Galaxy vă va oferi răspunsul."
         },
         {
-            "name": "Wellness Tips",
-            "text": "Enjoy precise, AI-tailored motivational messages and training tips based on your activity with your very own personal coach – every day."
+            "name": "Sfaturi pentru wellness",
+            "text": "Bucurați-vă de mesaje motivaționale precise și sfaturi de antrenament personalizate de AI, bazate pe activitatea dumneavoastră, cu propriul dumneavoastră antrenor personal – în fiecare zi."
         },
         {
-            "name": "Cycle Tracking",
-            "text": "Uncover more detail in your menstrual cycle, with skin temperature analysis to help predict your next fertile window and plan your life on your own terms."
+            "name": "Urmărirea ciclului",
+            "text": "Descoperiți mai multe detalii în ciclul dumneavoastră menstrual cu analiza temperaturii pielii pentru a ajuta la prezicerea următoarei ferestre fertile și pentru a vă planifica viața după propriile condiții."
         },
         {
-            "name": "Sleep Insights",
-            "text": "Galaxy Ring and Samsung Health together monitor your overall sleep to provide sleep insights. Get Sleep Coaching based on your sleep data to improve your sleep habits."
+            "name": "Informații despre somn",
+            "text": "Inelul Galaxy și Samsung Health monitorizează împreună somnul dumneavoastră pentru a oferi informații despre somn. Obțineți coaching pentru somn bazat pe datele dumneavoastră de somn pentru a vă îmbunătăți obiceiurile de somn."
         }
     ],
     "products": [
