@@ -45,45 +45,16 @@
         {
             "img": "./img/products/black/black_1.jpg",
             "location": "London, UK",
-            "name": "John Deer",
+            "name": "John Smith",
             "text": "Just bought Galaxy Ring for ",
             "from": "from"
         },
         {
             "img": "./img/products/gold/gold_1.jpg",
             "location": "Manchester, UK",
-            "name": "Deer John",
+            "name": "Emily Brown",
             "text": "Just bought Galaxy Ring for ",
             "from": "from"
-        }
-    ],
-    "products": [
-        {
-            "name": "black",
-            "color": "#343532",
-            "imgs": [
-                "./img/products/black/black_1.jpg",
-                "./img/products/black/black_2.jpg",
-                "./img/products/black/black_3.jpg"
-            ]
-        },
-        {
-            "name": "silver",
-            "color": "#8B8D8F",
-            "imgs": [
-                "./img/products/silver/silver_1.jpg",
-                "./img/products/silver/silver_2.jpg",
-                "./img/products/silver/silver_3.jpg"
-            ]
-        },
-        {
-            "name": "gold",
-            "color": "#C89303",
-            "imgs": [
-                "./img/products/gold/gold_1.jpg",
-                "./img/products/gold/gold_2.jpg",
-                "./img/products/gold/gold_3.jpg"
-            ]
         }
     ],
     "colorsText": "Colors",
@@ -220,6 +191,35 @@
         {
             "name": "Sleep Insights",
             "text": "Galaxy Ring and Samsung Health together monitor your overall sleep to provide sleep insights. Get Sleep Coaching based on your sleep data to improve your sleep habits."
+        }
+    ],
+    "products": [
+        {
+            "name": "black",
+            "color": "#343532",
+            "imgs": [
+                "./img/products/black/black_1.jpg",
+                "./img/products/black/black_2.jpg",
+                "./img/products/black/black_3.jpg"
+            ]
+        },
+        {
+            "name": "silver",
+            "color": "#8B8D8F",
+            "imgs": [
+                "./img/products/silver/silver_1.jpg",
+                "./img/products/silver/silver_2.jpg",
+                "./img/products/silver/silver_3.jpg"
+            ]
+        },
+        {
+            "name": "gold",
+            "color": "#C89303",
+            "imgs": [
+                "./img/products/gold/gold_1.jpg",
+                "./img/products/gold/gold_2.jpg",
+                "./img/products/gold/gold_3.jpg"
+            ]
         }
     ]
 }
