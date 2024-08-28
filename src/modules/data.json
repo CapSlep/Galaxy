@@ -1,6 +1,7 @@
 {
     "priceOld": "£399.00",
-    "priceNew": "£1.99",
+    "priceNew": "£1.97",
+    "productName": "Samsung Galaxy Ring",
     "header": {
         "shipping": "Free shipping for UK orders!"
     },
@@ -22,7 +23,7 @@
                 ]
             },
             {
-                "question": "Question 2 of 3: What is your age?",
+                "question": "What is your age?",
                 "answers": [
                     "18-25 years old",
                     "25-45 years old",
@@ -30,7 +31,7 @@
                 ]
             },
             {
-                "question": "Question 3 of 3: How did you find out about the Galaxy ring?",
+                "question": "How did you find out about the Galaxy ring?",
                 "answers": [
                     "Online advertising",
                     "Recommendation from friends/family",
@@ -39,5 +40,183 @@
             }
         ]
     },
-    "footer": "Copyright© 1995-2024 SAMSUNG All Rights Reserved"
+    "footer": "Copyright© 1995-2024 SAMSUNG All Rights Reserved",
+    "notifications": [
+        {
+            "img": "./img/products/black/black_1.jpg",
+            "location": "London, UK",
+            "name": "John Deer",
+            "text": "Just bought Galaxy Ring for ",
+            "from": "from"
+        },
+        {
+            "img": "./img/products/gold/gold_1.jpg",
+            "location": "Manchester, UK",
+            "name": "Deer John",
+            "text": "Just bought Galaxy Ring for ",
+            "from": "from"
+        }
+    ],
+    "products": [
+        {
+            "name": "black",
+            "imgs": [
+                "./img/products/black/black_1.jpg",
+                "./img/products/black/black_1.jpg",
+                "./img/products/black/black_1.jpg"
+            ]
+        },
+        {
+            "name": "silver",
+            "imgs": [
+                "./img/products/silver/silver_1.jpg",
+                "./img/products/silver/silver_1.jpg",
+                "./img/products/silver/silver_1.jpg"
+            ]
+        },
+        {
+            "name": "gold",
+            "imgs": [
+                "./img/products/gold/gold_1.jpg",
+                "./img/products/gold/gold_1.jpg",
+                "./img/products/gold/gold_1.jpg"
+            ]
+        }
+    ],
+    "colorsText": "Colors",
+    "sizeText": "Size",
+    "sizes": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+    ],
+    "checkoutButton": "Go to delivery",
+    "descriptionName": "Description",
+    "descriptionDrop": [
+        {
+            "name": "Dimension",
+            "parts": [
+                {
+                    "title": "Width",
+                    "text": "7.0mm"
+                },
+                {
+                    "title": "Thickness",
+                    "text": "2.6mm"
+                },
+                {
+                    "title": "Weight",
+                    "text": "2.3g (US 5) - 3.2g (US 13)"
+                },
+                {
+                    "title": "Shipping Weight",
+                    "text": "0.38 lb"
+                }
+            ]
+        },
+        {
+            "name": "Battery",
+            "parts": [
+                {
+                    "title": "Ring",
+                    "text": "18mAh (US 5) - 23.5mAh (US 13)"
+                },
+                {
+                    "title": "Charging case",
+                    "text": "361mAh"
+                },
+                {
+                    "title": "Usage",
+                    "text": "up to 7 days"
+                },
+                {
+                    "title": "Full charge",
+                    "text": "80 min"
+                }
+            ]
+        },
+        {
+            "name": "Sensors",
+            "parts": [
+                {
+                    "title": "Accelerometer",
+                    "text": "Yes"
+                },
+                {
+                    "title": "PPG",
+                    "text": "2PD + 3LED (R / 2xG / IR)"
+                },
+                {
+                    "title": "Skin temperature",
+                    "text": "NTC-Temperature Sensor"
+                }
+            ]
+        },
+        {
+            "name": "Other Features",
+            "parts": [
+                {
+                    "title": "MCU",
+                    "text": "nRF5340 (Nordic)"
+                },
+                {
+                    "title": "RAM",
+                    "text": "512KB + 64KB"
+                },
+                {
+                    "title": "Memory",
+                    "text": "8MB"
+                },
+                {
+                    "title": "Connectivity",
+                    "text": "Bluetooth® 5.4"
+                },
+                {
+                    "title": "Water Resistance",
+                    "text": "10ATM, IP68"
+                }
+            ]
+        }
+    ],
+    "featuresName": "Features",
+    "features": [
+        {
+            "name": "Sleek Titanium Finish",
+            "text": "Stay ahead of the trends with an all new Galaxy that proves high-tech devices don't have to be bulky. The durable titanium frame keeps the Galaxy Ring looking beautiful throughout all your day's activities."
+        },
+        {
+            "name": "Detailed insights",
+            "text": "With Galaxy Ring, your everyday movements go much further. Using the power of Galaxy AI, it works out where you can improve by constantly analysing your wellness habits, sleep quality and heart rate to build a comprehensive picture of your wellness."
+        },
+        {
+            "name": "Wireless Charging Cradle",
+            "text": "The Charging Case has a light around the Multi-purpose button that indicates the battery charging level. You can also charge the Charging Case wirelessly, so simply place Galaxy Ring in its case, and place it on a wireless charging pad for easy charging."
+        },
+        {
+            "name": "Durable And Water-resistant",
+            "text": "Tough enough to handle the everyday and a whole lot more, including up to 100m water resistance. Whether you’re swimming or sweating, Galaxy Ring can handle it."
+        },
+        {
+            "name": "Energy Score",
+            "text": "Discover how ready you are to tackle your day with the power of AI. Your sleep, heart rate and previous activity is factored into the overall score to help you decide on your activity levels. Whether it’s lace up or rest up, Galaxy Ring’s AI-boosted intelligence will give you the answer."
+        },
+        {
+            "name": "Wellness Tips",
+            "text": "Enjoy precise, AI-tailored motivational messages and training tips based on your activity with your very own personal coach – every day."
+        },
+        {
+            "name": "Cycle Tracking",
+            "text": "Uncover more detail in your menstrual cycle, with skin temperature analysis to help predict your next fertile window and plan your life on your own terms."
+        },
+        {
+            "name": "Sleep Insights",
+            "text": "Galaxy Ring and Samsung Health together monitor your overall sleep to provide sleep insights. Get Sleep Coaching based on your sleep data to improve your sleep habits."
+        }
+    ]
 }

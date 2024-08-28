@@ -1,0 +1,58 @@
+@use 'variables';
+
+
+/* ============================================================ NOTIFIcATIONS BLOCK ============================================================ */
+
+.notification__wrapper {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 5px #d3d3d3;
+    transition: all 2s ease;
+    align-items: flex-start;
+}
+
+.notification__panel {
+    font-size: variables.$font-size-small;
+    gap: 5px;
+}
+
+.notification__hidden {
+    right: -20rem;
+    opacity: 0;
+}
+
+.notification__shown {
+    right: 1rem;
+    opacity: 1;
+}
+
+.notification__location {
+    text-decoration: underline;
+}
+
+.notification__price {
+    font-weight: 600;
+}
+
+.notification__header,
+.notification__footer {
+    gap: 5px;
+}
+
+.notification__header {
+    font-size: .9rem;
+}
+
+.notification__img-wrapper {
+    width: 2rem;
+    height: 2rem;
+}
+
+.notification__img-wrapper img {
+    object-fit: cover;
+}

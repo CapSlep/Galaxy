@@ -1,0 +1,81 @@
+@use 'variables';
+
+.hero__page {
+    margin: 2rem auto;
+    width: 100%;
+}
+
+.hero__content {
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+}
+
+
+.color__selection {
+    gap: 1rem;
+    padding: 0 1rem;
+    justify-content: center;
+}
+
+
+.selector__button {
+    height: 3rem;
+    width: 3rem;
+    padding: 0;
+    border-radius: 50%;
+    border: 0;
+    background-color: #fff;
+    user-select: none;
+}
+
+.hero__header {
+    gap: 1rem;
+}
+
+.hero__product-name,
+.size__title,
+.hero__colors-title {
+    font-weight: 600;
+}
+
+.hero__product-pricebox {
+    gap: 1rem;
+    align-items: baseline;
+}
+
+.hero__product-pricebox .price-new {
+    font-size: variables.$font-size-big;
+    color: red;
+}
+
+.hero__product-ratingbox {
+    gap: 1rem;
+    align-items: center;
+}
+
+.size__wrapper {
+    gap: 1rem;
+}
+
+.size__selection {
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.size__button {
+    padding: 1rem;
+    flex: 1 1 30%;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
+
+.size__button:hover {
+    border-color: #757575;
+}
+
+.size__button.selected {
+    border: 2px solid #000;
+    /* Customize the border style */
+    outline: none;
+}

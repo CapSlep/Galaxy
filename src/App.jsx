@@ -1,11 +1,15 @@
 import Facebook from "./modules/Facebook";
 import Header from "./modules/Header";
-import QuizPage from "./modules/QuizPage";
+import StarterPage from "./modules/StarterPage";
 import Footer from "./modules/Footer";
+import Notifications from "./modules/Notifications";
+import GeneralPage from "./modules/GeneralPage";
 
 import { useData } from "./DataContext"; // Import the custom hook
+import { useState } from "react";
 
 export default function App() {
+    const [showQuiz, setShowQuiz] = useState(false);
     const data = useData();
 
     function getUrl() {
@@ -46,11 +50,20 @@ export default function App() {
         getUrl();
     }
 
+    function quizAnswerHandle() {
+        setShowQuiz(false);
+    }
+
     return (
         <>
             <Facebook></Facebook>
+            <Notifications></Notifications>
             <Header></Header>
-            <QuizPage></QuizPage>
+            <StarterPage
+                showPage={showQuiz}
+                quizFinishEvent={quizAnswerHandle}
+            ></StarterPage>
+            <GeneralPage showPage={!showQuiz}></GeneralPage>
             <Footer></Footer>
         </>
     );

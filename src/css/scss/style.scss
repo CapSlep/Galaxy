@@ -3,8 +3,62 @@
 @use 'base';
 @use 'header';
 @use 'quiz';
+@use 'starter';
 @use 'footer';
+@use 'notifications';
+@use 'hero';
+@use 'swiper';
+@use 'dropdowns';
+
+/* ============================================================ GENERAL BLOCK ============================================================ */
 
 .price-new {
     font-weight: 600;
+
+}
+
+.price-old {
+    font-size: variables.$font-size-small;
+    text-decoration: line-through;
+}
+
+
+.fade-in {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.hidden {
+    display: none;
+    /* Hide completely after fading out */
+}
+
+.display-flex {
+    display: flex;
+}
+
+.display-none {
+    display: none;
+}
+
+#root {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.checkout__button {
+    width: 100%;
+    padding: .75rem 1rem;
+    background-color: #006bea;
+    border-radius: 25px;
+    color: #fff;
 }

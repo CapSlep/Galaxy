@@ -1,0 +1,80 @@
+@use 'variables';
+
+/* ============================================================ QUIZ BLOCK ============================================================ */
+
+
+.dropdown {
+    padding: 10px 0;
+    width: 100%;
+
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown:last-child {
+    border-top: none;
+}
+
+.dropdown__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.dropdown__icon {
+    transition: transform 0.3s ease;
+}
+
+.dropdown__icon.open {
+    transform: rotate(0);
+}
+
+.dropdown__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    border-top: 1px solid #ddd;
+}
+
+.dropdown__content.open {
+    max-height: 500px;
+    /* Adjust based on content height */
+    opacity: 1;
+    overflow-y: scroll;
+}
+
+.dropdown__item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown__item:last-child {
+    border-bottom: none;
+}
+
+.dropdown__item {
+    gap: 1rem;
+}
+
+.dropdown__title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.dropdown__subtitle {
+    font-weight: 600;
+    font-size: variables.$font-size-small;
+}
+
+.dropdown__text {
+    font-size: variables.$font-size-small;
+}
