@@ -63,8 +63,8 @@
             "color": "#343532",
             "imgs": [
                 "./img/products/black/black_1.jpg",
-                "./img/products/black/black_1.jpg",
-                "./img/products/black/black_1.jpg"
+                "./img/products/black/black_2.jpg",
+                "./img/products/black/black_3.jpg"
             ]
         },
         {
@@ -72,8 +72,8 @@
             "color": "#8B8D8F",
             "imgs": [
                 "./img/products/silver/silver_1.jpg",
-                "./img/products/silver/silver_1.jpg",
-                "./img/products/silver/silver_1.jpg"
+                "./img/products/silver/silver_2.jpg",
+                "./img/products/silver/silver_3.jpg"
             ]
         },
         {
@@ -81,8 +81,8 @@
             "color": "#C89303",
             "imgs": [
                 "./img/products/gold/gold_1.jpg",
-                "./img/products/gold/gold_1.jpg",
-                "./img/products/gold/gold_1.jpg"
+                "./img/products/gold/gold_2.jpg",
+                "./img/products/gold/gold_3.jpg"
             ]
         }
     ],
