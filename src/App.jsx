@@ -9,8 +9,9 @@ import { useData } from "./DataContext"; // Import the custom hook
 import { useState } from "react";
 
 export default function App() {
-    const [showQuiz, setShowQuiz] = useState(true);
     const data = useData();
+    const [showQuiz, setShowQuiz] = useState(true);
+    const [selectedProduct, setSelectedProduct] = useState(data.products[0]);
 
     function getUrl() {
         // Retrieve the macro from the button's data-attribute
@@ -26,7 +27,7 @@ export default function App() {
 
         // Set parameters for redirection
         let adRedirectName = data.productName;
-        let img_url = "./img/product/product.webp";
+        let img_url = selectedProduct.imgs[0];
 
         // Send the fbq event
         fbq("track", "InitiateCheckout");
@@ -66,6 +67,8 @@ export default function App() {
             <GeneralPage
                 showPage={!showQuiz}
                 buyHandler={buyHandler}
+                selectedProduct={selectedProduct}
+                setSelectedProduct={setSelectedProduct}
             ></GeneralPage>
             <Footer></Footer>
         </>

@@ -3,11 +3,15 @@ import { useEffect, useState } from "react";
 import Slider from "./Slider";
 import DropdownContainer from "./DropdownContainer";
 
-export default function GeneralPage({ showPage, buyHandler }) {
+export default function GeneralPage({
+    showPage,
+    buyHandler,
+    selectedProduct,
+    setSelectedProduct,
+}) {
     const data = useData();
     const [isHidden, setIsHidden] = useState(true);
     const [isFading, setIsFading] = useState(false);
-    const [selectedProduct, setSelectedProduct] = useState(data.products[0]);
     const [selectedSize, setSelectedSize] = useState(null); // New state to track selected size
 
     function handleColorSelection(selectedName) {
