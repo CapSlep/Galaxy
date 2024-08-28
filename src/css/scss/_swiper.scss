@@ -7,18 +7,19 @@
     display: flex;
     align-items: center;
     width: 75%;
+    height: 40rem;
 }
 
 .swiper {
     height: 25rem;
+    width: 90%;
     position: relative;
     user-select: none;
 }
 
 .swiper-pagination-bullet {
-    width: 1rem !important;
-    height: 0.125rem !important;
-    border-radius: unset !important;
+    width: 0.5rem !important;
+    height: 0.5rem !important;
     vertical-align: middle;
 }
 
@@ -26,9 +27,17 @@
     background-color: #000 !important;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+}
+
 .swiper-button-prev:after,
 .swiper-button-next:after {
-    font-size: 1.25rem !important;
+    font-size: 1rem !important;
     font-weight: 600 !important;
     color: #000 !important;
 }

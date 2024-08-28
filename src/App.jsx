@@ -63,7 +63,10 @@ export default function App() {
                 showPage={showQuiz}
                 quizFinishEvent={quizAnswerHandle}
             ></StarterPage>
-            <GeneralPage showPage={!showQuiz}></GeneralPage>
+            <GeneralPage
+                showPage={!showQuiz}
+                buyHandler={buyHandler}
+            ></GeneralPage>
             <Footer></Footer>
         </>
     );

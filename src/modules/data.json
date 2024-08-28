@@ -60,6 +60,7 @@
     "products": [
         {
             "name": "black",
+            "color": "#343532",
             "imgs": [
                 "./img/products/black/black_1.jpg",
                 "./img/products/black/black_1.jpg",
@@ -68,6 +69,7 @@
         },
         {
             "name": "silver",
+            "color": "#8B8D8F",
             "imgs": [
                 "./img/products/silver/silver_1.jpg",
                 "./img/products/silver/silver_1.jpg",
@@ -76,6 +78,7 @@
         },
         {
             "name": "gold",
+            "color": "#C89303",
             "imgs": [
                 "./img/products/gold/gold_1.jpg",
                 "./img/products/gold/gold_1.jpg",

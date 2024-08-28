@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 import Slider from "./Slider";
 import DropdownContainer from "./DropdownContainer";
 
-export default function GeneralPage({ showPage }) {
+export default function GeneralPage({ showPage, buyHandler }) {
     const data = useData();
     const [isHidden, setIsHidden] = useState(true);
     const [isFading, setIsFading] = useState(false);
-    const [product, setProduct] = useState(data.products[0]);
+    const [selectedProduct, setSelectedProduct] = useState(data.products[0]);
     const [selectedSize, setSelectedSize] = useState(null); // New state to track selected size
 
     function handleColorSelection(selectedName) {
@@ -15,7 +15,7 @@ export default function GeneralPage({ showPage }) {
             return product.name === selectedName;
         });
 
-        setProduct(filteredProducts[0]); // Assuming you want to set the first match
+        setSelectedProduct(filteredProducts[0]); // Assuming you want to set the first match
     }
 
     function handleSizeSelection(size) {
@@ -42,7 +42,7 @@ export default function GeneralPage({ showPage }) {
             ${isHidden ? "hidden fade-out" : ""}`}
         >
             <div className="slider__wrapper">
-                <Slider slidesToShow={product.imgs}></Slider>
+                <Slider slidesToShow={selectedProduct.imgs}></Slider>
             </div>
             <div className="hero__content flex-column">
                 <div className="hero__header flex-column">
@@ -63,15 +63,27 @@ export default function GeneralPage({ showPage }) {
                 </div>
                 <div className="color__selection flex-row">
                     {data.products.map((product) => {
+                        const isSelected =
+                            product.name === selectedProduct?.name;
                         return (
                             <button
-                                className="selector__button"
+                                className={`selector__button ${
+                                    isSelected
+                                        ? "selector__button-selected"
+                                        : ""
+                                }`}
                                 key={product.name}
                                 onClick={() => {
                                     handleColorSelection(product.name);
                                 }}
-                                style={{ backgroundColor: `${product.name}` }}
-                            ></button>
+                            >
+                                <span
+                                    className="selector__button-display"
+                                    style={{
+                                        backgroundColor: `${product.color}`,
+                                    }}
+                                ></span>
+                            </button>
                         );
                     })}
                 </div>
@@ -94,6 +106,7 @@ export default function GeneralPage({ showPage }) {
                     </div>
                 </div>
                 <button
+                    onClick={buyHandler}
                     className={`checkout__button ${
                         selectedSize ? "fade-in" : "hidden fade-out"
                     }`}
