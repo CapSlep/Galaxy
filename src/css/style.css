@@ -268,6 +268,7 @@ header {
      object-fit: cover;
 }
 
+/* ============================================================ HERO BLOCK ============================================================ */
 .hero__page {
   margin: 2rem auto;
   width: 100%;
@@ -485,6 +486,22 @@ header {
   font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1.2rem);
 }
 
+/* ============================================================ MEDIQA Q BLOCK ============================================================ */
+@media (max-width: 768px) {
+  .hero__page {
+    flex-direction: column;
+  }
+  .hero__content {
+    height: auto;
+  }
+  .slider__wrapper {
+    height: auto;
+    width: 100%;
+  }
+  .hero__header {
+    align-items: center;
+  }
+}
 /* ============================================================ GENERAL BLOCK ============================================================ */
 .price-new {
   font-weight: 600;

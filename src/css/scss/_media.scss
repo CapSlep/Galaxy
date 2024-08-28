@@ -1,0 +1,23 @@
+@use 'variables';
+
+
+/* ============================================================ MEDIQA Q BLOCK ============================================================ */
+
+@media (max-width: variables.$small-screen) {
+    .hero__page {
+        flex-direction: column;
+    }
+
+    .hero__content {
+        height: auto;
+    }
+
+    .slider__wrapper {
+        height: auto;
+        width: 100%;
+    }
+
+    .hero__header {
+        align-items: center;
+    }
+}

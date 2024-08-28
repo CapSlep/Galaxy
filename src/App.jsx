@@ -9,7 +9,7 @@ import { useData } from "./DataContext"; // Import the custom hook
 import { useState } from "react";
 
 export default function App() {
-    const [showQuiz, setShowQuiz] = useState(false);
+    const [showQuiz, setShowQuiz] = useState(true);
     const data = useData();
 
     function getUrl() {
