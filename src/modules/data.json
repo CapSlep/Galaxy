@@ -1,17 +1,15 @@
 {
-    "priceOld": "£399.00",
-    "priceNew": "£1.97",
+    "priceOld": "449.00€",
+    "priceNew": "2.00€",
     "productName": "Samsung Galaxy Ring",
     "header": {
-        "shipping": "Free shipping for UK orders!"
+        "shipping": "Free shipping for Malta orders!"
     },
     "quizPage": {
         "title": "Congratulations, you can participate in a new promotion from Samsung!",
         "textSelling": "Samsung is selling their new popular galaxy ring model for ",
         "texts": [
-            "South Korea's Samsung is expanding its presence in the UK market by launching a second production line and driving growth. With this expansion, Samsung plans to increase its market share to 65% and as a first step is selling 1,500 rings in the UK at £1.99 specifically for the launch of the new product.",
-            "Galaxy Ring is available in 3 colours.",
-            "To receive a promotional Samsung Galaxy Ring, please fill out the form to confirm that you are an individual."
+            "Das südkoreanische Unternehmen Samsung baut seine Marktpräsenz in Deutschland aus, indem es eine zweite Produktionslinie in Betrieb nimmt und das Wachstum ankurbelt. Mit dieser Expansion will Samsung seinen Marktanteil auf 65 % erhöhen und verkauft in einem ersten Schritt 1.500 Ringe in Deutschland zu einem Preis von 2€ speziell für die neue Produkteinführung."
         ],
         "quiz": [
             {
@@ -44,15 +42,15 @@
     "notifications": [
         {
             "img": "./img/products/black/black_1.jpg",
-            "location": "London, UK",
-            "name": "John Smith",
+            "location": "Valletta, Malta",
+            "name": "Joseph Borg",
             "text": "Just bought Galaxy Ring for ",
             "from": "from"
         },
         {
             "img": "./img/products/gold/gold_1.jpg",
-            "location": "Manchester, UK",
-            "name": "Emily Brown",
+            "location": "Sliema, Malta",
+            "name": "Maria Vella",
             "text": "Just bought Galaxy Ring for ",
             "from": "from"
         }
