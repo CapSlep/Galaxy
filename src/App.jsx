@@ -34,6 +34,12 @@ export default function App() {
 
         // Check if the link already has parameters
         var separator = redirectLink.includes("?") ? "&" : "?";
+        // Get the base URL of the current site
+        let baseURL = window.location.origin;
+
+        // Construct the full URL
+        let fullImageUrl = new URL(img_url, baseURL).href;
+        // Now you can encode the full URL if needed
 
         // Redirect with new parameters
         window.location.href =
@@ -42,7 +48,7 @@ export default function App() {
             "adRedirectName=" +
             encodeURIComponent(adRedirectName) +
             "&adRedirectImg=" +
-            encodeURIComponent(img_url);
+            encodeURIComponent(fullImageUrl);
     }
 
     function buyHandler(event) {
